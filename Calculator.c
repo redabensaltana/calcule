@@ -6,7 +6,7 @@
 
 int main (){
 		printf("\n\t\tMENU\n");
-		printf("\t1) arithmetic operations\n\t2) logical operations\n\t3) comparaison\n\t4) history\n\n\t");
+		printf("\t1) arithmetic operations (working)\n\t2) logical operations (working)\n\t3) comparaison (not yet)\n\t4) history (not yet)\n\n\t");
 		
 		int firstNum,secondNum,result;
 		int choice;
@@ -45,26 +45,23 @@ int main (){
 								printf("%d / %d = %d",firstNum,secondNum,result);
 							default:
 								printf("\n choose an operator !!");
-						}		
-//				logicqal operation
+						}	
+				return 0;
+				
+		//logical operations
 
 			case 2:
 				system("cls");
 				
-					int number1,number2;
-					printf("please enter 1 or 0 : ");
-					scanf("%d",&number1);
-					printf("please enter 1 or 0 :");
-					scanf("%d",&number2);
 					
-					int opeLogic ;
-
-   					 printf("\t1. 1 . and\n");
-    				printf("\t2. 2 . nand\n");
-   					 printf("\t3. 3 . or\n");
-    				printf("\t4. 4 . nor\n");
-   					 printf("\t5. 5 . xor \n\n");
+   					 printf("\t 1 . and\n");
+    					printf("\t 2 . nand\n");
+   					 printf("\t 3 . or\n");
+    					printf("\t 4 . nor\n");
+   					 printf("\t 5 . xor \n\n");
     				printf("\tChoose the logical operator: ");
+				
+				int opeLogic ;
     				scanf(" %d", &opeLogic);
     				
     				int andop() {
